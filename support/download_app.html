@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Share app</title>
+    <script>
+        window.onload = function() {
+            // Kiểm tra hệ điều hành
+            if (/iPhone|iPad|iPod/i.test(navigator.userAgent)) {
+                window.location.href = "https://apps.apple.com/app/id6695760209";
+            } else if (/Android/i.test(navigator.userAgent)) {
+                window.location.href = "https://play.google.com/store/apps/details?id=com.s.record";
+            } else {
+                // Thông báo hoặc redirect đến trang mặc định
+                document.body.innerHTML = "<h1>Vui lòng sử dụng thiết bị iOS hoặc Android.</h1>";
+            }
+        };
+    </script>
+</head>
+<body>
+    <h1>Đang chuyển hướng...</h1>
+</body>
+</html>
