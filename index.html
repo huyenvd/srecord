@@ -1,121 +1,1256 @@
-<!DOCTYPE html>
-<html lang="vi">
+<html lang="vi" class="translated-ltr">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>S-Record: Quản lý đơn hàng hiệu quả</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            background: #fff;
-        }
-        h1, h2, h3 {
-            color: #333;
-        }
-        .header {
-            text-align: center;
-            padding: 20px 0;
-        }
-        .features, .download, .testimonials, .contact {
-            margin: 20px 0;
-        }
-        .cta-buttons {
-            text-align: center;
-            margin-top: 20px;
-        }
-        .cta-buttons a {
-            display: inline-block;
-            margin: 10px;
-            padding: 10px 20px;
-            color: #fff;
-            background-color: #007bff;
-            text-decoration: none;
-            border-radius: 5px;
-        }
-        .cta-buttons a:hover {
-            background-color: #0056b3;
-        }
-        .testimonials blockquote {
-            background: #f9f9f9;
-            border-left: 10px solid #ccc;
-            margin: 1.5em 10px;
-            padding: 0.5em 10px;
-            quotes: "\201C""\201D""\2018""\2019";
-        }
-        .testimonials blockquote p {
-            display: inline;
-        }
-        .testimonials blockquote::before {
-            color: #ccc;
-            content: open-quote;
-            font-size: 4em;
-            line-height: 0.1em;
-            margin-right: 0.25em;
-            vertical-align: -0.4em;
-        }
-        .testimonials blockquote::after {
-            content: close-quote;
-        }
-        .contact {
-            text-align: center;
-        }
-        .contact p {
-            margin: 5px 0;
-        }
-    </style>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Mục lục - Mẫu Bootstrap S Record</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+        rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet">
+
+    <!-- =======================================================
+    * Template Name: S Record
+    * Template URL: https://bootstrapmade.com/S Record-bootstrap-startup-website-template/
+    * Updated: Aug 07 2024 with Bootstrap v5.3.3
+    * Author: BootstrapMade.com
+    * License: https://bootstrapmade.com/license/
+    ======================================================== -->
+    <link type="text/css" rel="stylesheet" charset="UTF-8"
+        href="https://www.gstatic.com/_/translate_http/_/ss/k=translate_http.tr.26tY-h6gH9w.L.W.O/am=QDA/d=0/rs=AN8SPfrycRFEIstD_ODMax_0dvnH_HM3_Q/m=el_main_css">
+    <link type="text/css" rel="stylesheet" charset="UTF-8"
+        href="https://www.gstatic.com/_/translate_http/_/ss/k=translate_http.tr.26tY-h6gH9w.L.W.O/am=QDA/d=0/rs=AN8SPfrycRFEIstD_ODMax_0dvnH_HM3_Q/m=el_main_css">
 </head>
-<body>
-    <div class="container">
-        <header class="header">
-            <h1>S-Record: Quản lý đơn hàng hiệu quả</h1>
-        </header>
-        
-        <section class="introduction">
-            <p><strong>S-Record</strong> là phần mềm giúp người bán hàng trên các nền tảng thương mại điện tử như TikTok, Shopee, Lazada... quay video để quản lý các loại đơn hàng gửi đi, hàng hoàn và hàng giao cho ship một cách dễ dàng và thân thiện.</p>
-        </section>
-        
-        <section class="features">
-            <h2>Tính Năng Nổi Bật</h2>
-            <ul>
-                <li><strong>Quản Lý Đơn Hàng</strong>: Ghi lại video chi tiết cho từng đơn hàng, bao gồm thông tin về sản phẩm, người nhận, và tình trạng đơn hàng.</li>
-                <li><strong>Theo Dõi Hàng Hoàn</strong>: Quản lý và theo dõi hàng hoàn dễ dàng, giảm thiểu sai sót và thất thoát.</li>
-                <li><strong>Giao Hàng Cho Ship</strong>: Hỗ trợ quản lý việc giao hàng cho ship, giúp quy trình giao nhận hàng hóa trở nên trơn tru và hiệu quả.</li>
-                <li><strong>Giao Diện Thân Thiện</strong>: Thiết kế giao diện trực quan, dễ sử dụng, phù hợp cho mọi người dùng.</li>
-            </ul>
-        </section>
-        
-        <section class="download">
-            <h2>Tải Về Ngay</h2>
-            <p>Tải ngay <strong>S-Record</strong> từ App Store hoặc Play Store để bắt đầu quản lý đơn hàng của bạn một cách thông minh và hiệu quả.</p>
-            <div class="cta-buttons">
-                <a href="#">Tải từ App Store</a>
-                <a href="#">Tải từ Play Store</a>
+
+<body class="index-page scrolled" data-aos-easing="ease-in-out" data-aos-duration="600" data-aos-delay="0">
+
+    <header id="header" class="header d-flex align-items-center fixed-top">
+        <div class="container-fluid container-xl position-relative d-flex align-items-center">
+
+            <a href="index.html" class="logo d-flex align-items-center me-auto">
+                <img src="assets/img/logo.png" alt="">
+                <h1 class="sitename">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">S Record</font>
+                            </font>
+                        </font>
+                    </font>
+                </h1>
+            </a>
+
+            <nav id="navmenu" class="navmenu">
+                <ul>
+                    <li><a href="index.html#hero" class="">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">Trang chủ</font>
+                            </font>
+                        </a></li>
+                    <li><a href="index.html#features" class="">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">Nổi bật</font>
+                            </font>
+                        </a></li>
+                    <li><a href="index.html#services" class="active">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">Dịch vụ</font>
+                            </font>
+                        </a></li>
+                    <li><a href="index.html#about" class="">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">Về chúng tôi</font>
+                            </font>
+                        </a></li>
+                    <li><a href="index.html#contact" class="">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">Liên hệ</font>
+                            </font>
+                        </a></li>
+                </ul>
+                <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+            </nav>
+
+            <a class="btn-getstarted" href="index.html#hero">
+                <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">Bắt đầu</font>
+                </font>
+            </a>
+
+        </div>
+    </header>
+
+    <main class="main">
+
+        <!-- Hero Section -->
+        <section id="hero" class="hero section">
+            <div class="hero-bg">
+                <img src="assets/img/hero-bg-light.webp" alt="">
+            </div>
+            <div class="container text-center">
+                <div class="d-flex flex-column justify-content-center align-items-center">
+                    <h1 data-aos="fade-up" class="aos-init aos-animate">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">Chào mừng đến với </font>
+                        </font><span>
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">S Record</font>
+                            </font>
+                        </span>
+                    </h1>
+                    <p data-aos="fade-up" data-aos-delay="100" class="aos-init aos-animate">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">Hãy quản lý đơn hàng của bạn hiệu quả đó là tiền đề
+                                cho thành công!</font>
+                        </font><br>
+                    </p>
+                    <div class="d-flex aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+                        <a href="#about" class="btn-get-started">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">Bắt đầu</font>
+                                    </font>
+                                </font>
+                            </font>
+                        </a>
+                        <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8"
+                            class="glightbox btn-watch-video d-flex align-items-center"><i
+                                class="bi bi-play-circle"></i><span>
+                                <font style="vertical-align: inherit;">
+                                    <font style="vertical-align: inherit;">Xem Video</font>
+                                </font>
+                            </span></a>
+                    </div>
+                    <img src="assets/img/hero-services-img.webp" class="img-fluid hero-img aos-init aos-animate" alt=""
+                        data-aos="zoom-out" data-aos-delay="300">
+                </div>
+            </div>
+
+        </section><!-- /Hero Section -->
+
+        <!-- Features Section -->
+        <section id="features" class="features section">
+
+            <!-- Section Title -->
+            <div class="container section-title aos-init aos-animate" data-aos="fade-up">
+                <h2>
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Nổi bật</font>
+                    </font>
+                </h2>
+                <p>
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Giúp người bán hàng trên các nền tảng thương mại điện tử
+                            như TikTok, Shopee, Lazada...</font>
+                    </font>
+                </p>
+            </div><!-- End Section Title -->
+
+            <div class="container">
+                <div class="row justify-content-between">
+
+                    <div class="col-lg-5 d-flex align-items-center">
+
+                        <ul class="nav nav-tabs aos-init aos-animate" data-aos="fade-up" data-aos-delay="100"
+                            role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#features-tab-1"
+                                    aria-selected="true" role="tab">
+                                    <i class="bi bi-binoculars"></i>
+                                    <div>
+                                        <h4 class="d-none d-lg-block">
+                                            <font style="vertical-align: inherit;">
+                                                <font style="vertical-align: inherit;">Quản Lý Đơn Hàng
+                                                </font>
+                                            </font>
+                                        </h4>
+                                        <p>
+                                            <font style="vertical-align: inherit;">
+                                                <font style="vertical-align: inherit;">
+                                                    Ghi lại video chi tiết cho từng đơn hàng, bao gồm đầy đủ thông tin
+                                                    về sản phẩm như tên, số lượng, và mô tả. Ngoài ra, video còn ghi
+                                                    nhận rõ tình trạng hiện tại của đơn hàng, từ lúc đóng gói đến khi
+                                                    giao đến tay khách hàng. Quá trình này giúp tăng cường độ chính xác
+                                                    và minh bạch, giảm thiểu rủi ro sai sót trong quá trình giao hàng.
+                                                </font>
+                                            </font>
+                                        </p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-2"
+                                    aria-selected="false" tabindex="-1" role="tab">
+                                    <i class="bi bi-box-seam"></i>
+                                    <div>
+                                        <h4 class="d-none d-lg-block">
+                                            <font style="vertical-align: inherit;">
+                                                <font style="vertical-align: inherit;">Theo Dõi Hàng Hoàn</font>
+                                            </font>
+                                        </h4>
+                                        <p>
+                                            <font style="vertical-align: inherit;">
+                                                <font style="vertical-align: inherit;">Hệ thống quản lý hàng hoàn cho
+                                                    phép theo dõi toàn bộ quá trình từ khi khách hàng yêu cầu hoàn trả
+                                                    cho đến khi hàng hóa được nhận lại tại kho. Quản lý hàng hoàn trở
+                                                    nên dễ dàng hơn với các tính năng quay lại video shipper đưa hàng
+                                                    hoàn trả. Việc theo dõi chi tiết giúp giảm thiểu sai sót, đảm bảo
+                                                    quy trình hoàn trả diễn ra minh bạch và chính xác, đồng thời hạn chế
+                                                    tối đa việc thất thoát hàng hóa trong quá trình vận chuyển hoặc xử
+                                                    lý. Điều này giúp doanh nghiệp tối ưu hóa hiệu suất làm việc và nâng
+                                                    cao trải nghiệm của khách hàng khi có nhu cầu hoàn trả sản phẩm.
+                                                </font>
+                                            </font>
+                                        </p>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul><!-- End Tab Nav -->
+
+                    </div>
+
+                    <div class="col-lg-6">
+
+                        <div class="tab-content aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+
+                            <div class="tab-pane fade active show" id="features-tab-1" role="tabpanel">
+                                <img src="assets/img/tabs-1.jpg" alt="" class="img-fluid">
+                            </div><!-- End Tab Content Item -->
+
+                            <div class="tab-pane fade" id="features-tab-2" role="tabpanel">
+                                <img src="assets/img/tabs-2.jpg" alt="" class="img-fluid">
+                            </div><!-- End Tab Content Item -->
+
+                            <div class="tab-pane fade" id="features-tab-3" role="tabpanel">
+                                <img src="assets/img/tabs-3.jpg" alt="" class="img-fluid">
+                            </div><!-- End Tab Content Item -->
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section><!-- /Features Section -->
+
+        <!-- Features Details Section -->
+        <section id="features-details" class="features-details section">
+
+            <div class="container">
+                <div class="row gy-4 justify-content-between features-item">
+
+                    <div class="col-lg-5 d-flex align-items-center order-2 order-lg-1 aos-init aos-animate"
+                        data-aos="fade-up" data-aos-delay="100">
+
+                        <div class="content">
+                            <h3>
+                                <font style="vertical-align: inherit;">
+                                    <font style="vertical-align: inherit;">Làm việc rõ ràng, minh bạch với người vận
+                                        chuyển.</font>
+                                </font>
+                            </h3>
+                            <ul>
+                                <li><i class="bi bi-easel flex-shrink-0"></i>
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">Hệ thống hỗ trợ quản lý việc giao hàng
+                                            cho shipper giúp tối ưu hóa quy trình giao nhận hàng hóa, từ khi đơn hàng
+                                            được xác nhận đến khi giao hàng thành công cho khách hàng
+                                        </font>
+                                    </font>
+                                </li>
+                                <li><i class="bi bi-patch-check flex-shrink-0"></i>
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">Thông qua việc theo dõi video trong quá
+                                            trình giao hàng, bao gồm việc chuẩn bị hàng, phân công shipper phù hợp, hệ
+                                            thống đảm bảo rằng việc giao hàng diễn ra nhanh chóng và chính xác.</font>
+                                    </font>
+                                </li>
+                                <li><i class="bi bi-brightness-high flex-shrink-0"></i>
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">Điều này không chỉ giúp quy trình giao
+                                            nhận hàng hóa trở nên trơn tru và hiệu quả hơn, mà còn giảm thiểu các rủi ro
+                                            về chậm trễ, thất lạc hàng hóa, góp phần nâng cao chất lượng dịch vụ.</font>
+                                    </font>
+                                </li>
+                            </ul>
+                            <p></p>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-6 order-1 order-lg-2 aos-init aos-animate" data-aos="fade-up"
+                        data-aos-delay="200">
+                        <img src="assets/img/features-2.jpg" class="img-fluid" alt="">
+                    </div>
+
+                </div><!-- Features Item -->
+
+                <div class="row gy-4 justify-content-between features-item">
+
+                    <div class="col-lg-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+                        <img src="assets/img/features-1.jpg" class="img-fluid" alt="">
+                    </div>
+
+                    <div class="col-lg-5 d-flex align-items-center aos-init aos-animate" data-aos="fade-up"
+                        data-aos-delay="200">
+                        <div class="content">
+                            <h3>
+                                <font style="vertical-align: inherit;">
+                                    <font style="vertical-align: inherit;">Giao Diện Thân Thiện
+                                    </font>
+                                </font>
+                            </h3>
+                            <p>
+                                <font style="vertical-align: inherit;">
+                                    <font style="vertical-align: inherit;">Thiết kế giao diện của hệ thống tập trung vào
+                                        tính trực quan, đơn giản và dễ sử dụng, giúp người dùng ở mọi trình độ công nghệ
+                                        có thể thao tác một cách dễ dàng. Các biểu tượng và nút chức năng được bố trí
+                                        hợp lý, rõ ràng, giúp người dùng nhanh chóng tìm thấy những tính năng cần thiết
+                                        mà không gặp khó khăn. Bên cạnh đó, giao diện còn được tối ưu hóa để hiển thị
+                                        tốt trên nhiều thiết bị khác nhau, từ máy tính đến điện thoại di động, đảm bảo
+                                        tính linh hoạt và tiện lợi khi sử dụng. Các hướng dẫn và thông báo trên màn hình
+                                        được thiết kế rõ ràng, hỗ trợ người dùng thực hiện các thao tác mà không cần
+                                        phải tốn thời gian tìm hiểu hay đào tạo. Nhờ thiết kế giao diện thân thiện, hệ
+                                        thống không chỉ giúp nâng cao hiệu suất làm việc mà còn mang lại trải nghiệm
+                                        mượt mà, thoải mái cho người dùng.
+                                    </font>
+                                </font>
+                            </p>
+                        </div>
+                    </div>
+
+                </div><!-- Features Item -->
+            </div>
+
+        </section><!-- /Features Details Section -->
+
+        <!-- Services Section -->
+        <section id="services" class="services section light-background">
+
+            <!-- Section Title -->
+            <div class="container section-title aos-init aos-animate" data-aos="fade-up">
+                <h2>
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Dịch vụ</font>
+                    </font>
+                </h2>
+                <p>
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">S Record là phần mềm giúp người bán hàng trên các
+                                    nền tảng thương mại điện tử như TikTok, Shopee, Lazada... quay video để quản lý các
+                                    loại đơn hàng gửi đi, hàng hoàn và hàng giao cho ship một cách dễ dàng và thân
+                                    thiện.</font>
+                            </font>
+                        </font>
+                    </font>
+                </p>
+            </div><!-- End Section Title -->
+
+            <div class="container">
+
+                <div class="row g-5">
+
+                    <div class="col-lg-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+                        <div class="service-item item-cyan position-relative">
+                            <i class="bi bi-activity icon"></i>
+                            <div>
+                                <h3>
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">Phần mềm miễn phí</font>
+                                    </font>
+                                </h3>
+                                <p>
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">công cụ hỗ trợ đắc lực cho người bán hàng
+                                            trong việc ghi lại toàn bộ quy trình từ đóng gói, giao hàng cho đến nhận
+                                            hàng hoàn trả. Với khả năng quay video chi tiết từng giai đoạn, phần mềm
+                                            giúp người dùng theo dõi, kiểm soát quá trình giao nhận một cách dễ dàng và
+                                            chính xác. Điều này không chỉ giúp giảm thiểu sai sót mà còn tăng cường sự
+                                            minh bạch, tin cậy trong khâu quản lý hàng hóa. Phần mềm mang lại nhiều lợi
+                                            ích mà không tốn chi phí, phù hợp cho mọi nhà kinh doanh online.</font>
+                                    </font>
+                                </p>
+                            </div>
+                        </div>
+                    </div><!-- End Service Item -->
+
+                    <div class="col-lg-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+                        <div class="service-item item-orange position-relative">
+                            <i class="bi bi-broadcast icon"></i>
+                            <div>
+                                <h3>
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">Hỗ trợ tận tâm</font>
+                                    </font>
+                                </h3>
+                                <p>
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">Mang đến cho người dùng trải nghiệm chăm
+                                            sóc chu đáo với đội ngũ luôn sẵn sàng giải đáp mọi thắc mắc và cung cấp
+                                            hướng dẫn chi tiết bất cứ lúc nào. Dịch vụ hỗ trợ hoạt động 24/7, đảm bảo
+                                            người dùng nhận được sự giúp đỡ kịp thời, dù là về các vấn đề kỹ thuật hay
+                                            thao tác sử dụng phần mềm. Với sự tận tình và chuyên nghiệp, người dùng có
+                                            thể hoàn toàn yên tâm khi gặp bất kỳ khó khăn nào trong suốt quá trình sử
+                                            dụng.</font>
+                                    </font>
+                                </p>
+                            </div>
+                        </div>
+                    </div><!-- End Service Item -->
+
+                    <div class="col-lg-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
+                        <div class="service-item item-teal position-relative">
+                            <i class="bi bi-easel icon"></i>
+                            <div>
+                                <h3>
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">Phần mềm đa nền tảng</font>
+                                    </font>
+                                </h3>
+                                <p>
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">Hỗ trợ tất cả các thiết bị di động
+                                            (android, ios) quay lại video và quản lý video, giúp xuất video dễ dàng để
+                                            có thể quản lý trên laptop (macOs hay windows) tiện lợi. Với máy MacOs bạn
+                                            cũng có thể sử dụng thiết bị kết nối (quay video) để thực hiện điều đó như
+                                            mobile.</font>
+                                    </font>
+                                </p>
+                            </div>
+                        </div>
+                    </div><!-- End Service Item -->
+
+                    <div class="col-lg-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="400">
+                        <div class="service-item item-red position-relative">
+                            <i class="bi bi-bounding-box-circles icon"></i>
+                            <div>
+                                <h3>
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">Cập nhật thường xuyên</font>
+                                    </font>
+                                </h3>
+                                <p>
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">Phần mềm luôn được cải tiến để đáp ứng
+                                            tốt nhất nhu cầu của người dùng. Chúng tôi liên tục theo dõi và lắng nghe
+                                            phản hồi, từ đó đưa ra các bản cập nhật với tính năng mới, tối ưu hóa hiệu
+                                            suất và cải thiện trải nghiệm sử dụng. Mỗi bản cập nhật đều nhằm mục tiêu
+                                            nâng cao sự tiện ích, đảm bảo phần mềm luôn phù hợp với xu hướng và nhu cầu
+                                            đa dạng của người dùng.</font>
+                                    </font>
+                                </p>
+                            </div>
+                        </div>
+                    </div><!-- End Service Item -->
+                </div>
+
+            </div>
+
+        </section><!-- /Services Section -->
+        <!-- About Section -->
+        <section id="about" class="about section">
+
+            <div class="container">
+
+                <div class="row gy-4">
+
+                    <div class="col-lg-6 content aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+                        <p class="who-we-are">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">Chúng tôi là ai</font>
+                            </font>
+                        </p>
+                        <h3>
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">Tận tình, tận tâm và làm việc hết mình!</font>
+                            </font>
+                        </h3>
+                        <p class="fst-italic">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">
+                                    Điều quan trọng là phải mang lại sự tiện lợi cho người dùng, lợi ích của khách hàng
+                                    là ưu tiên hàng đầu với mọi người chúng tôi.
+                                </font>
+                            </font>
+                        </p>
+                        <ul>
+                            <li><i class="bi bi-check-circle"></i> <span>
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">Chúng tôi sẽ luôn cố gắng cải tiến chất
+                                            lượng, nâng cao trải nghiệm.</font>
+                                    </font>
+                                </span></li>
+                            <li><i class="bi bi-check-circle"></i> <span>
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">Mọi ý nghĩa trong công việc đều bắt nguồn
+                                            từ những mong muốn cơ bản của mỗi người.</font>
+                                    </font>
+                                </span></li>
+                            <li><i class="bi bi-check-circle"></i> <span>
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">Người bán hàng là những người xây dựng và
+                                            đóng góp lớn đến thị trường tiêu dùng trong nước. Họ là những người tận tâm,
+                                            tận tình và sống hết mình với đam mê. Mang lại lợi ích cho họ cũng là mang
+                                            lại giá trị cho chúng tôi. Sự đồng hành của họ là góp phần vào sự phát triển
+                                            của chúng tôi!</font>
+                                    </font>
+                                </span></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-6 about-images aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+                        <div class="row gy-4">
+                            <div class="col-lg-6">
+                                <img src="assets/img/about-company-1.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="row gy-4">
+                                    <div class="col-lg-12">
+                                        <img src="assets/img/about-company-2.jpg" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <img src="assets/img/about-company-3.jpg" class="img-fluid" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section><!-- /About Section -->
+
+        <!-- Faq Section -->
+        <section id="faq" class="faq section">
+
+            <!-- Section Title -->
+            <div class="container section-title aos-init aos-animate" data-aos="fade-up">
+                <h2>
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Những câu hỏi thường gặp</font>
+                    </font>
+                </h2>
+            </div><!-- End Section Title -->
+
+            <div class="container">
+
+                <div class="row justify-content-center">
+
+                    <div class="col-lg-10 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+
+                        <div class="faq-container">
+
+                            <div class="faq-item faq-active">
+                                <h3>
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">Phần mềm này có phù hợp với nhu cầu của
+                                            tôi không?</font>
+                                    </font>
+                                </h3>
+                                <div class="faq-content">
+                                    <p>
+                                        <font style="vertical-align: inherit;">
+                                            <font style="vertical-align: inherit;">Phần mềm được thiết kế linh hoạt, phù
+                                                hợp với nhiều loại hình doanh nghiệp và nhu cầu khác nhau, giúp tối ưu
+                                                hóa quy trình làm việc.</font>
+                                        </font>
+                                    </p>
+                                </div>
+                                <i class="faq-toggle bi bi-chevron-right"></i>
+                            </div><!-- End Faq item-->
+
+                            <div class="faq-item">
+                                <h3>
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">Phần mềm này có hỗ trợ kỹ thuật không?
+                                        </font>
+                                    </font>
+                                </h3>
+                                <div class="faq-content">
+                                    <p>
+                                        <font style="vertical-align: inherit;">
+                                            <font style="vertical-align: inherit;">Chúng tôi cung cấp hỗ trợ kỹ thuật
+                                                24/7 để giúp bạn giải quyết mọi vấn đề liên quan đến phần mềm.</font>
+                                        </font>
+                                    </p>
+                                </div>
+                                <i class="faq-toggle bi bi-chevron-right"></i>
+                            </div><!-- End Faq item-->
+
+                            <div class="faq-item">
+                                <h3>
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">Có bao nhiêu người có thể sử dụng phần
+                                            mềm cùng một lúc?</font>
+                                    </font>
+                                </h3>
+                                <div class="faq-content">
+                                    <p>
+                                        <font style="vertical-align: inherit;">
+                                            <font style="vertical-align: inherit;">Phần mềm cho phép nhiều người dùng
+                                                truy cập đồng thời, giúp tối ưu hóa hiệu suất làm việc nhóm.</font>
+                                        </font>
+                                    </p>
+                                </div>
+                                <i class="faq-toggle bi bi-chevron-right"></i>
+                            </div><!-- End Faq item-->
+
+                            <div class="faq-item">
+                                <h3>
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">Tôi có thể dùng thử phần mềm trước khi
+                                            quyết định mua không?</font>
+                                    </font>
+                                </h3>
+                                <div class="faq-content">
+                                    <p>
+                                        <font style="vertical-align: inherit;">
+                                            <font style="vertical-align: inherit;">Có, chúng tôi cung cấp một bản dùng
+                                                thử miễn phí để bạn có thể trải nghiệm các tính năng trước khi quyết
+                                                định mua.</font>
+                                        </font>
+                                    </p>
+                                </div>
+                                <i class="faq-toggle bi bi-chevron-right"></i>
+                            </div><!-- End Faq item-->
+
+                            <div class="faq-item">
+                                <h3>
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">Phần mềm có khả năng tích hợp với các
+                                            công cụ khác không?</font>
+                                    </font>
+                                </h3>
+                                <div class="faq-content">
+                                    <p>
+                                        <font style="vertical-align: inherit;">
+                                            <font style="vertical-align: inherit;">Phần mềm của chúng tôi hỗ trợ tích
+                                                hợp với nhiều công cụ và nền tảng khác nhau, giúp bạn dễ dàng kết nối và
+                                                quản lý thông tin.</font>
+                                        </font>
+                                    </p>
+                                </div>
+                                <i class="faq-toggle bi bi-chevron-right"></i>
+                            </div><!-- End Faq item-->
+
+                            <div class="faq-item">
+                                <h3>
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">Tôi có thể yêu cầu tính năng mới không?
+                                        </font>
+                                    </font>
+                                </h3>
+                                <div class="faq-content">
+                                    <p>
+                                        <font style="vertical-align: inherit;">
+                                            <font style="vertical-align: inherit;">Chúng tôi luôn chào đón các đề xuất
+                                                tính năng mới từ người dùng để cải thiện phần mềm, bạn có thể gửi yêu
+                                                cầu qua trang hỗ trợ của chúng tôi.</font>
+                                        </font>
+                                    </p>
+                                </div>
+                                <i class="faq-toggle bi bi-chevron-right"></i>
+                            </div><!-- End Faq item-->
+
+                        </div>
+
+                    </div><!-- End Faq Column-->
+
+                </div>
+
+            </div>
+
+        </section><!-- /Faq Section -->
+        <!-- /Faq Section -->
+
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="testimonials section light-background">
+
+            <!-- Section Title -->
+            <div class="container section-title aos-init aos-animate" data-aos="fade-up">
+                <h2>
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Một số nhận xét</font>
+                    </font>
+                </h2>
+                <p>
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Ghi nhận bình luận, đánh giá sẽ giúp chúng ta tốt hơn!
+                        </font>
+                    </font>
+                </p>
+            </div><!-- End Section Title -->
+
+            <div class="container aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+
+                <div class="swiper init-swiper swiper-initialized swiper-horizontal swiper-backface-hidden">
+                    <script type="application/json" class="swiper-config">
+                {
+                    "loop": true,
+                    "speed": 600,
+                    "autoplay": {
+                        "delay": 5000
+                    },
+                    "slidesPerView": "auto",
+                    "pagination": {
+                        "el": ".swiper-pagination",
+                        "type": "bullets",
+                        "clickable": true
+                    },
+                    "breakpoints": {
+                        "320": {
+                            "slidesPerView": 1,
+                            "spaceBetween": 40
+                        },
+                        "1200": {
+                            "slidesPerView": 3,
+                            "spaceBetween": 1
+                        }
+                    }
+                }
+            </script>
+                    <div class="swiper-wrapper" id="swiper-wrapper-23373d38086fbfba" aria-live="off"
+                        style="transition-duration: 0ms; transform: translate3d(-1900px, 0px, 0px); transition-delay: 0ms;">
+
+                        <div class="swiper-slide swiper-slide-next" role="group" aria-label="1 / 5"
+                            data-swiper-slide-index="0" style="width: 435px; margin-right: 40px;">
+                            <div class="testimonial-item">
+                                <div class="stars">
+                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-fill"></i>
+                                </div>
+                                <p>
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">Tôi đã thử nhiều phần mềm trước đây,
+                                            nhưng phần mềm này vượt trội về tính năng và hiệu quả.</font>
+                                    </font>
+                                </p>
+                                <div class="profile mt-auto">
+                                    <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img"
+                                        alt="">
+                                    <h3>
+                                        <font style="vertical-align: inherit;">
+                                            <font style="vertical-align: inherit;">Matt Brandon</font>
+                                        </font>
+                                    </h3>
+                                    <h4>
+                                        <font style="vertical-align: inherit;">
+                                            <font style="vertical-align: inherit;">Người làm việc tự do</font>
+                                        </font>
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" role="group" aria-label="2 / 5" data-swiper-slide-index="1"
+                            style="width: 435px; margin-right: 40px;">
+                            <div class="testimonial-item">
+                                <div class="stars">
+                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-fill"></i>
+                                </div>
+                                <p>
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">Phần mềm này rất dễ sử dụng và đã giúp
+                                            tôi tiết kiệm rất nhiều thời gian trong công việc.</font>
+                                    </font>
+                                </p>
+                                <div class="profile mt-auto">
+                                    <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img"
+                                        alt="">
+                                    <h3>
+                                        <font style="vertical-align: inherit;">
+                                            <font style="vertical-align: inherit;">John Larson</font>
+                                        </font>
+                                    </h3>
+                                    <h4>
+                                        <font style="vertical-align: inherit;">
+                                            <font style="vertical-align: inherit;">Doanh nhân</font>
+                                        </font>
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" role="group" aria-label="3 / 5" data-swiper-slide-index="2"
+                            style="width: 435px; margin-right: 40px;">
+                            <div class="testimonial-item">
+                                <div class="stars">
+                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-fill"></i>
+                                </div>
+                                <p>
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">Tính năng hỗ trợ khách hàng của phần mềm
+                                            thật tuyệt vời, luôn sẵn sàng giải đáp thắc mắc của tôi.</font>
+                                    </font>
+                                </p>
+                                <div class="profile mt-auto">
+                                    <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img"
+                                        alt="">
+                                    <h3>
+                                        <font style="vertical-align: inherit;">
+                                            <font style="vertical-align: inherit;">Saul Goodman</font>
+                                        </font>
+                                    </h3>
+                                    <h4>
+                                        <font style="vertical-align: inherit;">
+                                            <font style="vertical-align: inherit;">Tổng giám đốc &amp; Nhà sáng lập
+                                            </font>
+                                        </font>
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide swiper-slide-prev" role="group" aria-label="4 / 5"
+                            data-swiper-slide-index="3" style="width: 435px; margin-right: 40px;">
+                            <div class="testimonial-item">
+                                <div class="stars">
+                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-fill"></i>
+                                </div>
+                                <p>
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">Tôi rất hài lòng với hiệu suất làm việc
+                                            của phần mềm, nó thực sự đáp ứng được nhu cầu của tôi.</font>
+                                    </font>
+                                </p>
+                                <div class="profile mt-auto">
+                                    <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img"
+                                        alt="">
+                                    <h3>
+                                        <font style="vertical-align: inherit;">
+                                            <font style="vertical-align: inherit;">Sara Wilson</font>
+                                        </font>
+                                    </h3>
+                                    <h4>
+                                        <font style="vertical-align: inherit;">
+                                            <font style="vertical-align: inherit;">Nhà thiết kế</font>
+                                        </font>
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide swiper-slide-active" role="group" aria-label="5 / 5"
+                            data-swiper-slide-index="4" style="width: 435px; margin-right: 40px;">
+                            <div class="testimonial-item">
+                                <div class="stars">
+                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-fill"></i>
+                                </div>
+                                <p>
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">Phần mềm này không chỉ hiệu quả mà còn
+                                            rất linh hoạt, phù hợp với nhiều loại công việc khác nhau.</font>
+                                    </font>
+                                </p>
+                                <div class="profile mt-auto">
+                                    <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img"
+                                        alt="">
+                                    <h3>
+                                        <font style="vertical-align: inherit;">
+                                            <font style="vertical-align: inherit;">Jena Karlis</font>
+                                        </font>
+                                    </h3>
+                                    <h4>
+                                        <font style="vertical-align: inherit;">
+                                            <font style="vertical-align: inherit;">Chủ cửa hàng</font>
+                                        </font>
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal">
+                        <span class="swiper-pagination-bullet" tabindex="0" role="button"
+                            aria-label="Go to slide 1"></span><span class="swiper-pagination-bullet" tabindex="0"
+                            role="button" aria-label="Go to slide 2"></span><span class="swiper-pagination-bullet"
+                            tabindex="0" role="button" aria-label="Go to slide 3"></span><span
+                            class="swiper-pagination-bullet" tabindex="0" role="button"
+                            aria-label="Go to slide 4"></span><span
+                            class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button"
+                            aria-label="Go to slide 5"></span>
+                    </div>
+                </div>
             </div>
         </section>
-        
-        <section class="testimonials">
-            <h2>Khách Hàng Nói Gì</h2>
-            <blockquote>
-                <p>"S-Record đã giúp tôi quản lý hàng hoàn và giao hàng một cách dễ dàng hơn bao giờ hết. Giao diện thân thiện và rất dễ sử dụng." - Nguyễn Văn A, người bán hàng Shopee</p>
-            </blockquote>
-            <blockquote>
-                <p>"Từ khi sử dụng S-Record, việc quản lý đơn hàng của tôi trở nên gọn gàng và hiệu quả hơn rất nhiều." - Trần Thị B, người bán hàng Lazada</p>
-            </blockquote>
-        </section>
-        
-        <section class="contact">
-            <h2>Liên Hệ</h2>
-            <p>Nếu bạn có bất kỳ câu hỏi nào, xin vui lòng liên hệ với chúng tôi qua email: <a href="mailto:support@s-record.com">support@s-record.com</a> hoặc gọi hotline: 0123 456 789.</p>
-        </section>
+
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section">
+
+            <!-- Section Title -->
+            <div class="container section-title aos-init aos-animate" data-aos="fade-up">
+                <h2>
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Liên hệ</font>
+                    </font>
+                </h2>
+                <p>
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Bạn có thể liên hệ với chúng tôi qua các kênh thông tin
+                            sau đây</font>
+                    </font>
+                </p>
+            </div><!-- End Section Title -->
+
+            <div class="container aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+
+                <div class="row gy-4">
+
+                    <div class="col-lg-6">
+                        <div class="info-item d-flex flex-column justify-content-center align-items-center aos-init aos-animate"
+                            data-aos="fade-up" data-aos-delay="200">
+                            <i class="bi bi-geo-alt"></i>
+                            <h3>
+                                <font style="vertical-align: inherit;">
+                                    <font style="vertical-align: inherit;">Địa chỉ</font>
+                                </font>
+                            </h3>
+                            <p>
+                                <font style="vertical-align: inherit;">
+                                    <font style="vertical-align: inherit;">Hoàng Mai, Hoàng Văn Thụ, Hoàng Mai, Hà Nội,
+                                        Việt Nam</font>
+                                </font>
+                            </p>
+                        </div>
+                    </div><!-- End Info Item -->
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="info-item d-flex flex-column justify-content-center align-items-center aos-init aos-animate"
+                            data-aos="fade-up" data-aos-delay="300">
+                            <i class="bi bi-telephone"></i>
+                            <h3>Liên hệ</h3>
+                            <p>
+                                <font style="vertical-align: inherit;">
+                                    <font style="vertical-align: inherit;">0123456789</font>
+                                </font>
+                            </p>
+                        </div>
+                    </div><!-- End Info Item -->
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="info-item d-flex flex-column justify-content-center align-items-center aos-init aos-animate"
+                            data-aos="fade-up" data-aos-delay="400">
+                            <i class="bi bi-envelope"></i>
+                            <h3>
+                                <font style="vertical-align: inherit;">
+                                    <font style="vertical-align: inherit;">Email</font>
+                                </font>
+                            </h3>
+                            <p>
+                                <font style="vertical-align: inherit;">
+                                    <font style="vertical-align: inherit;">admin@sellerrecord.com</font>
+                                </font>
+                            </p>
+                        </div>
+                    </div><!-- End Info Item -->
+
+                </div>
+
+                <div class="row gy-4 mt-1">
+                    <div class="col-lg-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d105.867843!3d21.024576!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab297c7b091d%3A0x16ec0ae9a41db285!2zTsOhbmggMjU0IE1pbmggS2hhaSwgSMOgbk5vaSwgVmV0bmFt!5e0!3m2!1svi!2s!4v1695984203685!5m2!1svi!2s"
+                            frameborder="0" style="border:0; width: 100%; height: 400px;" allowfullscreen=""
+                            loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div><!-- End Google Maps -->
+
+                </div>
+
+            </div>
+
+        </section><!-- /Contact Section -->
+
+    </main>
+
+    <footer id="footer" class="footer position-relative light-background">
+
+        <div class="container footer-top">
+            <div class="row gy-4">
+                <div class="col-lg-4 col-md-6 footer-about">
+                    <a href="index.html" class="logo d-flex align-items-center">
+                        <span class="sitename">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">S Record</font>
+                            </font>
+                        </span>
+                    </a>
+                    <div class="footer-contact pt-3">
+                        <p>
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">Đường Minh Khai</font>
+                            </font>
+                        </p>
+                        <p>
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">Hoàng Mai, Hà Nội, Việt Nam</font>
+                            </font>
+                        </p>
+                        <p class="mt-3"><strong>
+                                <font style="vertical-align: inherit;">
+                                    <font style="vertical-align: inherit;">Điện thoại: </font>
+                                </font>
+                            </strong> <span>
+                                <font style="vertical-align: inherit;">
+                                    <font style="vertical-align: inherit;">+84123456789</font>
+                                </font>
+                            </span></p>
+                        <p><strong>
+                                <font style="vertical-align: inherit;">
+                                    <font style="vertical-align: inherit;">Email: </font>
+                                </font>
+                            </strong> <span>
+                                <font style="vertical-align: inherit;">
+                                    <font style="vertical-align: inherit;">admin@sellerrecord.com</font>
+                                </font>
+                            </span></p>
+                    </div>
+                    <div class="social-links d-flex mt-4">
+                        <a href=""><i class="bi bi-facebook"></i></a>
+                        <a href=""><i class="bi bi-instagram"></i></a>
+                        <a href=""><i class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-3 footer-links">
+                    <h4>
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">Liên kết hữu ích</font>
+                        </font>
+                    </h4>
+                    <ul>
+                        <li><a href="#hero">
+                                <font style="vertical-align: inherit;">
+                                    <font style="vertical-align: inherit;">Trang chủ</font>
+                                </font>
+                            </a></li>
+                        <li><a href="#about">
+                                <font style="vertical-align: inherit;">
+                                    <font style="vertical-align: inherit;">Về chúng tôi</font>
+                                </font>
+                            </a></li>
+                        <li><a href="#services">
+                                <font style="vertical-align: inherit;">
+                                    <font style="vertical-align: inherit;">Dịch vụ</font>
+                                </font>
+                            </a></li>
+                        <li><a href="#">
+                                <font style="vertical-align: inherit;">
+                                    <font style="vertical-align: inherit;">Điều khoản dịch vụ</font>
+                                </font>
+                            </a></li>
+                        <li><a href="#">
+                                <font style="vertical-align: inherit;">
+                                    <font style="vertical-align: inherit;">Chính sách bảo mật</font>
+                                </font>
+                            </a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-md-3 footer-links">
+                    <h4>
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">Dịch vụ của chúng tôi</font>
+                        </font>
+                    </h4>
+                    <ul>
+                        <li><a href="#services">
+                                <font style="vertical-align: inherit;">
+                                    <font style="vertical-align: inherit;">Phần mềm miễn phi</font>
+                                </font>
+                            </a></li>
+                        <li><a href="#services">
+                                <font style="vertical-align: inherit;">
+                                    <font style="vertical-align: inherit;">Hỗ trợ tận tâm</font>
+                                </font>
+                            </a></li>
+                        <li><a href="#services">
+                                <font style="vertical-align: inherit;">
+                                    <font style="vertical-align: inherit;">Phần mềm đa nền tảng</font>
+                                </font>
+                            </a></li>
+                        <li><a href="#services">
+                                <font style="vertical-align: inherit;">
+                                    <font style="vertical-align: inherit;">Cập nhật thường xuyên</font>
+                                </font>
+                            </a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container copyright text-center mt-4">
+            <p>
+                <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">© </font>
+                </font><span>
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Bản quyền </font>
+                    </font>
+                </span> <strong class="px-1 sitename">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">S Record </font>
+                    </font>
+                </strong>
+            </p>
+        </div>
+
+    </footer>
+
+    <!-- Scroll Top -->
+    <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center active"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Preloader -->
+
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
+    <div id="goog-gt-tt" class="VIpgJd-yAWNEb-L7lbkb skiptranslate"
+        style="border-radius: 12px; margin: 0 0 0 -23px; padding: 0; font-family: 'Google Sans', Arial, sans-serif;"
+        data-id="">
+        <div id="goog-gt-vt" class="VIpgJd-yAWNEb-hvhgNd">
+            <div class=" VIpgJd-yAWNEb-hvhgNd-l4eHX-i3jM8c"><img
+                    src="https://fonts.gstatic.com/s/i/productlogos/translate/v14/24px.svg" width="24" height="24"
+                    alt=""></div>
+            <div class=" VIpgJd-yAWNEb-hvhgNd-k77Iif-i3jM8c">
+                <div class="VIpgJd-yAWNEb-hvhgNd-IuizWc" dir="ltr">Original text</div>
+                <div id="goog-gt-original-text" class="VIpgJd-yAWNEb-nVMfcd-fmcmS VIpgJd-yAWNEb-hvhgNd-axAV1"></div>
+            </div>
+            <div class="VIpgJd-yAWNEb-hvhgNd-N7Eqid ltr">
+                <div class="VIpgJd-yAWNEb-hvhgNd-N7Eqid-B7I4Od ltr" dir="ltr">
+                    <div class="VIpgJd-yAWNEb-hvhgNd-UTujCb">Rate this translation</div>
+                    <div class="VIpgJd-yAWNEb-hvhgNd-eO9mKe">Your feedback will be used to help improve Google Translate
+                    </div>
+                </div>
+                <div class="VIpgJd-yAWNEb-hvhgNd-xgov5 ltr"><button id="goog-gt-thumbUpButton" type="button"
+                        class="VIpgJd-yAWNEb-hvhgNd-bgm6sf" title="Good translation" aria-label="Good translation"
+                        aria-pressed="false"><span id="goog-gt-thumbUpIcon"><svg width="24" height="24"
+                                viewBox="0 0 24 24" focusable="false" class="VIpgJd-yAWNEb-hvhgNd-THI6Vb NMm5M">
+                                <path
+                                    d="M21 7h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 0S7.08 6.85 7 7H2v13h16c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73V9c0-1.1-.9-2-2-2zM7 18H4V9h3v9zm14-7l-3 7H9V8l4.34-4.34L12 9h9v2z">
+                                </path>
+                            </svg></span><span id="goog-gt-thumbUpIconFilled"><svg width="24" height="24"
+                                viewBox="0 0 24 24" focusable="false" class="VIpgJd-yAWNEb-hvhgNd-THI6Vb NMm5M">
+                                <path
+                                    d="M21 7h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 0S7.08 6.85 7 7v13h11c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73V9c0-1.1-.9-2-2-2zM5 7H1v13h4V7z">
+                                </path>
+                            </svg></span></button><button id="goog-gt-thumbDownButton" type="button"
+                        class="VIpgJd-yAWNEb-hvhgNd-bgm6sf" title="Poor translation" aria-label="Poor translation"
+                        aria-pressed="false"><span id="goog-gt-thumbDownIcon"><svg width="24" height="24"
+                                viewBox="0 0 24 24" focusable="false" class="VIpgJd-yAWNEb-hvhgNd-THI6Vb NMm5M">
+                                <path
+                                    d="M3 17h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 24s7.09-6.85 7.17-7h5V4H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v2c0 1.1.9 2 2 2zM17 6h3v9h-3V6zM3 13l3-7h9v10l-4.34 4.34L12 15H3v-2z">
+                                </path>
+                            </svg></span><span id="goog-gt-thumbDownIconFilled"><svg width="24" height="24"
+                                viewBox="0 0 24 24" focusable="false" class="VIpgJd-yAWNEb-hvhgNd-THI6Vb NMm5M">
+                                <path
+                                    d="M3 17h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 24s7.09-6.85 7.17-7V4H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v2c0 1.1.9 2 2 2zm16 0h4V4h-4v13z">
+                                </path>
+                            </svg></span></button></div>
+            </div>
+            <div id="goog-gt-votingHiddenPane" class="VIpgJd-yAWNEb-hvhgNd-aXYTce">
+                <form id="goog-gt-votingForm" action="//translate.googleapis.com/translate_voting?client=te_lib"
+                    method="post" target="votingFrame" class="VIpgJd-yAWNEb-hvhgNd-aXYTce"><input type="text" name="sl"
+                        id="goog-gt-votingInputSrcLang"><input type="text" name="tl"
+                        id="goog-gt-votingInputTrgLang"><input type="text" name="query"
+                        id="goog-gt-votingInputSrcText"><input type="text" name="gtrans"
+                        id="goog-gt-votingInputTrgText"><input type="text" name="vote" id="goog-gt-votingInputVote">
+                </form><iframe name="votingFrame" frameborder="0"></iframe>
+            </div>
+        </div>
+    </div>
+    <div id="goog-gt-tt" class="VIpgJd-yAWNEb-L7lbkb skiptranslate"
+        style="border-radius: 12px; margin: 0 0 0 -23px; padding: 0; font-family: 'Google Sans', Arial, sans-serif;"
+        data-id="">
+        <div id="goog-gt-vt" class="VIpgJd-yAWNEb-hvhgNd">
+            <div class=" VIpgJd-yAWNEb-hvhgNd-l4eHX-i3jM8c"><img
+                    src="https://fonts.gstatic.com/s/i/productlogos/translate/v14/24px.svg" width="24" height="24"
+                    alt=""></div>
+            <div class=" VIpgJd-yAWNEb-hvhgNd-k77Iif-i3jM8c">
+                <div class="VIpgJd-yAWNEb-hvhgNd-IuizWc" dir="ltr">Original text</div>
+                <div id="goog-gt-original-text" class="VIpgJd-yAWNEb-nVMfcd-fmcmS VIpgJd-yAWNEb-hvhgNd-axAV1"></div>
+            </div>
+            <div class="VIpgJd-yAWNEb-hvhgNd-N7Eqid ltr">
+                <div class="VIpgJd-yAWNEb-hvhgNd-N7Eqid-B7I4Od ltr" dir="ltr">
+                    <div class="VIpgJd-yAWNEb-hvhgNd-UTujCb">Rate this translation</div>
+                    <div class="VIpgJd-yAWNEb-hvhgNd-eO9mKe">Your feedback will be used to help improve Google Translate
+                    </div>
+                </div>
+                <div class="VIpgJd-yAWNEb-hvhgNd-xgov5 ltr"><button id="goog-gt-thumbUpButton" type="button"
+                        class="VIpgJd-yAWNEb-hvhgNd-bgm6sf" title="Good translation" aria-label="Good translation"
+                        aria-pressed="false"><span id="goog-gt-thumbUpIcon"><svg width="24" height="24"
+                                viewBox="0 0 24 24" focusable="false" class="VIpgJd-yAWNEb-hvhgNd-THI6Vb NMm5M">
+                                <path
+                                    d="M21 7h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 0S7.08 6.85 7 7H2v13h16c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73V9c0-1.1-.9-2-2-2zM7 18H4V9h3v9zm14-7l-3 7H9V8l4.34-4.34L12 9h9v2z">
+                                </path>
+                            </svg></span><span id="goog-gt-thumbUpIconFilled"><svg width="24" height="24"
+                                viewBox="0 0 24 24" focusable="false" class="VIpgJd-yAWNEb-hvhgNd-THI6Vb NMm5M">
+                                <path
+                                    d="M21 7h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 0S7.08 6.85 7 7v13h11c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73V9c0-1.1-.9-2-2-2zM5 7H1v13h4V7z">
+                                </path>
+                            </svg></span></button><button id="goog-gt-thumbDownButton" type="button"
+                        class="VIpgJd-yAWNEb-hvhgNd-bgm6sf" title="Poor translation" aria-label="Poor translation"
+                        aria-pressed="false"><span id="goog-gt-thumbDownIcon"><svg width="24" height="24"
+                                viewBox="0 0 24 24" focusable="false" class="VIpgJd-yAWNEb-hvhgNd-THI6Vb NMm5M">
+                                <path
+                                    d="M3 17h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 24s7.09-6.85 7.17-7h5V4H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v2c0 1.1.9 2 2 2zM17 6h3v9h-3V6zM3 13l3-7h9v10l-4.34 4.34L12 15H3v-2z">
+                                </path>
+                            </svg></span><span id="goog-gt-thumbDownIconFilled"><svg width="24" height="24"
+                                viewBox="0 0 24 24" focusable="false" class="VIpgJd-yAWNEb-hvhgNd-THI6Vb NMm5M">
+                                <path
+                                    d="M3 17h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 24s7.09-6.85 7.17-7V4H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v2c0 1.1.9 2 2 2zm16 0h4V4h-4v13z">
+                                </path>
+                            </svg></span></button></div>
+            </div>
+            <div id="goog-gt-votingHiddenPane" class="VIpgJd-yAWNEb-hvhgNd-aXYTce">
+                <form id="goog-gt-votingForm" action="//translate.googleapis.com/translate_voting?client=te_lib"
+                    method="post" target="votingFrame" class="VIpgJd-yAWNEb-hvhgNd-aXYTce"><input type="text" name="sl"
+                        id="goog-gt-votingInputSrcLang"><input type="text" name="tl"
+                        id="goog-gt-votingInputTrgLang"><input type="text" name="query"
+                        id="goog-gt-votingInputSrcText"><input type="text" name="gtrans"
+                        id="goog-gt-votingInputTrgText"><input type="text" name="vote" id="goog-gt-votingInputVote">
+                </form><iframe name="votingFrame" frameborder="0"></iframe>
+            </div>
+        </div>
     </div>
 </body>
+
 </html>

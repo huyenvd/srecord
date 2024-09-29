@@ -1,58 +1,367 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Contact Us</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
-        }
-        .contact-page {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: white;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        h1 {
-            color: #333;
-        }
-        h3 {
-            color: #555;
-        }
-        p {
-            line-height: 1.6;
-            color: #666;
-        }
-    </style>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Starter Page - S Record</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet">
+
+    <!-- =======================================================
+  * Template Name: S Record
+  * Template URL: https://bootstrapmade.com/S Record-bootstrap-startup-website-template/
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
-<body>
 
-<div class="contact-page">
-  <h1>Contact Us</h1>
-  <p>We are always happy to hear any questions, suggestions, or concerns you may have. If you need support or have any requests related to our services, please feel free to contact us through the information below.</p>
-  
-  <h3>Hotline/Zalo:</h3>
-  <p>0123456789</p>
-  
-  <h3>Email:</h3>
-  <p>info@yourdomain.com</p>
-  
-  <p>Our support team is ready to assist you from Monday to Saturday, from 8:00 AM to 5:00 PM. If you contact us outside of working hours, we will do our best to respond as soon as possible.</p>
+<body class="starter-page-page">
 
-  <p>We are committed to providing the best solutions for your order management needs and are happy to answer any questions related to features, usage instructions, or technical issues you may encounter.</p>
+    <header id="header" class="header d-flex align-items-center sticky-top">
+        <div class="container-fluid container-xl position-relative d-flex align-items-center">
 
-  <p>Please contact us via the hotline or email for prompt assistance or if you have any urgent issues. We greatly appreciate your interest and feedback as it helps us continually improve our services.</p>
-  
-  <p>All personal information and data you provide will be kept strictly confidential according to our company's privacy policy. We do not share your information with any third party without your consent.</p>
-  
-  <p>Thank you for trusting our services!</p>
-</div>
+            <a href="index.html" class="logo d-flex align-items-center me-auto">
+                <img src="assets/img/logo.png" alt="">
+                <h1 class="sitename">S Record</h1>
+            </a>
+
+            <nav id="navmenu" class="navmenu">
+                <ul>
+                    <li><a href="index.html#hero">Home</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#features">Features</a></li>
+                    <li><a href="index.html#services">Services</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+                <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+            </nav>
+
+            <a class="btn-getstarted" href="index.html#about">Get Started</a>
+
+        </div>
+    </header>
+
+    <main class="main">
+
+        <!-- Page Title -->
+        <div class="page-title" data-aos="fade">
+            <div class="container d-lg-flex justify-content-between align-items-center">
+                <h1 class="mb-2 mb-lg-0">Starter Page</h1>
+                <nav class="breadcrumbs">
+                    <ol>
+                        <li><a href="index.html">Home</a></li>
+                        <li class="current">Starter Page</li>
+                    </ol>
+                </nav>
+            </div>
+        </div><!-- End Page Title -->
+
+        <!-- Starter Section Section -->
+        <section id="starter-section" class="starter-section section">
+
+            <!-- Section Title -->
+            <div class="container section-title" data-aos="fade-up">
+                <div style="max-width: 800px; margin: auto; padding: 20px; font-family: Arial, sans-serif;">
+                    <h1 style="text-align: center; color: #333;">Contact Us</h1>
+                    
+                    <p style="line-height: 1.6; color: #555;">
+                        We are always happy to hear any questions, suggestions, or concerns you may have. If you need support or have any requests related to our services, please feel free to contact us through the information below.
+                    </p>
+                
+                    <h3 style="color: #333;">Contact Information:</h3>
+                    <ul style="line-height: 1.6; color: #555; list-style-type: none; padding: 0;">
+                        <li><strong>Hotline/Zalo:</strong> 0123456789</li>
+                        <li><strong>Email:</strong> <a href="mailto:info@yourdomain.com" style="color: #007BFF;">info@yourdomain.com</a></li>
+                    </ul>
+                
+                    <p style="line-height: 1.6; color: #555;">
+                        Our support team is ready to assist you from Monday to Saturday, from 8:00 AM to 5:00 PM. If you contact us outside of working hours, we will do our best to respond as soon as possible.
+                    </p>
+                
+                    <p style="line-height: 1.6; color: #555;">
+                        We are committed to providing the best solutions for your order management needs and are happy to answer any questions related to features, usage instructions, or technical issues you may encounter.
+                    </p>
+                
+                    <p style="line-height: 1.6; color: #555;">
+                        Please contact us via the hotline or email for prompt assistance or if you have any urgent issues. We greatly appreciate your interest and feedback as it helps us continually improve our services.
+                    </p>
+                
+                    <p style="line-height: 1.6; color: #555;">
+                        All personal information and data you provide will be kept strictly confidential according to our company's privacy policy. We do not share your information with any third party without your consent.
+                    </p>
+                </div>
+                
+            </div><!-- End Section Title -->
+
+            <div class="container" data-aos="fade-up">
+                <p>Thank you for trusting our services!</p>
+            </div>
+
+        </section><!-- /Starter Section Section -->
+
+    </main>
+
+    <footer id="footer" class="footer position-relative light-background">
+
+        <div class="container footer-top">
+            <div class="row gy-4">
+                <div class="col-lg-4 col-md-6 footer-about">
+                    <a href="index.html" class="logo d-flex align-items-center">
+                        <span class="sitename">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">S Record</font>
+                            </font>
+                        </span>
+                    </a>
+                    <div class="footer-contact pt-3">
+                        <p>
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">Minh Khai Street</font>
+                                    </font>
+                                </font>
+                            </font>
+                        </p>
+                        <p>
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">Hoang Mai, Hanoi, Vietnam</font>
+                                    </font>
+                                </font>
+                            </font>
+                        </p>
+                        <p class="mt-3"><strong>
+                                <font style="vertical-align: inherit;">
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">
+                                            <font style="vertical-align: inherit;">Phone: </font>
+                                        </font>
+                                    </font>
+                                </font>
+                            </strong>
+                            <font style="vertical-align: inherit;"><span>
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">
+                                            <font style="vertical-align: inherit;">+84123456789</font>
+                                        </font>
+                                    </font>
+                                </span></font><span>
+                                <font style="vertical-align: inherit;">
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;"></font>
+                                    </font>
+                                </font>
+                            </span>
+                        </p>
+                        <p><strong>
+                                <font style="vertical-align: inherit;">
+                                    <font style="vertical-align: inherit;">Email: </font>
+                                </font>
+                            </strong> <span>
+                                <font style="vertical-align: inherit;">
+                                    <font style="vertical-align: inherit;">admin@sellerrecord.com</font>
+                                </font>
+                            </span></p>
+                    </div>
+                    <div class="social-links d-flex mt-4">
+                        <a href=""><i class="bi bi-facebook"></i></a>
+                        <a href=""><i class="bi bi-instagram"></i></a>
+                        <a href=""><i class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-3 footer-links">
+                    <h4>
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">
+                                    <font style="vertical-align: inherit;">Useful links</font>
+                                </font>
+                            </font>
+                        </font>
+                    </h4>
+                    <ul>
+                        <li><a href="#">
+                                <font style="vertical-align: inherit;">
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">
+                                            <font style="vertical-align: inherit;">Home</font>
+                                        </font>
+                                    </font>
+                                </font>
+                            </a></li>
+                        <li><a href="#">
+                                <font style="vertical-align: inherit;">
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">
+                                            <font style="vertical-align: inherit;">About us</font>
+                                        </font>
+                                    </font>
+                                </font>
+                            </a></li>
+                        <li><a href="#">
+                                <font style="vertical-align: inherit;">
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">
+                                            <font style="vertical-align: inherit;">Service</font>
+                                        </font>
+                                    </font>
+                                </font>
+                            </a></li>
+                        <li><a href="#">
+                                <font style="vertical-align: inherit;">
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">
+                                            <font style="vertical-align: inherit;">Terms of Service</font>
+                                        </font>
+                                    </font>
+                                </font>
+                            </a></li>
+                        <li><a href="#">
+                                <font style="vertical-align: inherit;">
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">
+                                            <font style="vertical-align: inherit;">Privacy Policy</font>
+                                        </font>
+                                    </font>
+                                </font>
+                            </a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-md-3 footer-links">
+                    <h4>
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">
+                                    <font style="vertical-align: inherit;">Our Services</font>
+                                </font>
+                            </font>
+                        </font>
+                    </h4>
+                    <ul>
+                        <li><a href="#services">
+                                <font style="vertical-align: inherit;">
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">
+                                            <font style="vertical-align: inherit;">Free software</font>
+                                        </font>
+                                    </font>
+                                </font>
+                            </a></li>
+                        <li><a href="#services">
+                                <font style="vertical-align: inherit;">
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">
+                                            <font style="vertical-align: inherit;">Dedicated support</font>
+                                        </font>
+                                    </font>
+                                </font>
+                            </a></li>
+                        <li><a href="#services">
+                                <font style="vertical-align: inherit;">
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">
+                                            <font style="vertical-align: inherit;">Cross-platform software</font>
+                                        </font>
+                                    </font>
+                                </font>
+                            </a></li>
+                        <li><a href="#services">
+                                <font style="vertical-align: inherit;">
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">
+                                            <font style="vertical-align: inherit;">Updated regularly</font>
+                                        </font>
+                                    </font>
+                                </font>
+                            </a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container copyright text-center mt-4">
+            <p>
+                <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">© </font>
+                        </font>
+                    </font>
+                </font>
+                <font style="vertical-align: inherit;"><span>
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">Copyright </font>
+                            </font>
+                        </font>
+                    </span><strong class="px-1 sitename">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">S Record</font>
+                            </font>
+                        </font>
+                    </strong></font><span>
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;"></font>
+                        </font>
+                    </font>
+                </span> <strong class="px-1 sitename">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;"></font>
+                        </font>
+                    </font>
+                </strong>
+            </p>
+        </div>
+
+    </footer>
+
+    <!-- Scroll Top -->
+    <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Preloader -->
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
 
 </body>
+
 </html>
