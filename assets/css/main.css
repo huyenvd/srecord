@@ -804,6 +804,10 @@ section,
   overflow: clip;
 }
 
+.section-privacy {
+  padding-top: 20px;
+}
+
 @media (max-width: 1199px) {
 
   section,
@@ -2003,4 +2007,16 @@ section,
 #scroll-top {
   bottom: 130px; /* Điều chỉnh để nút Zalo và scroll-top không chồng lên nhau */
   right: 40px;
+}
+
+.custom-button {
+  border-radius: 26px; /* Radius lớn hơn để tạo cảm giác bo mềm mại */
+  padding: 15px; /* Đảm bảo padding đủ để nội dung không bị chật */
+  display: flex;
+  align-items: center; /* Căn giữa icon và text */
+  justify-content: center; /* Căn giữa icon và text */
+}
+
+.custom-button i {
+  margin-right: 8px; /* Khoảng cách giữa icon và text */
 }
