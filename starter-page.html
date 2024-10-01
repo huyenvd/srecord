@@ -324,6 +324,35 @@
     </footer>
 
     <!-- Scroll Top -->
+    <a href="#" id="zalo-button" class="zalo-button d-flex align-items-center justify-content-center active">
+        <i class="bi bi-chat white-icon"></i> <!-- Icon chat của Bootstrap -->
+    </a>
+
+    <script type="text/javascript">
+        window.$crisp = [];
+        window.CRISP_WEBSITE_ID = "b31b3353-da42-4029-9196-6632148666e2";
+        (function () {
+            var d = document;
+            var s = d.createElement("script");
+            s.src = "https://client.crisp.chat/l.js";
+            s.async = 1;
+            d.getElementsByTagName("head")[0].appendChild(s);
+        })();
+
+        // Mở chat khi click vào nút
+        document.getElementById('zalo-button').addEventListener('click', function (event) {
+            event.preventDefault(); // Ngăn chặn hành vi mặc định của thẻ a
+            window.$crisp.push(["do", "chat:open"]); // Mở chat
+            this.style.display = 'none'; // Ẩn nút zalo-button
+        });
+    </script>
+
+    <style>
+        .white-icon {
+            color: white;
+            /* Đặt màu cho icon là trắng */
+        }
+    </style>
     <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
             class="bi bi-arrow-up-short"></i></a>
 
