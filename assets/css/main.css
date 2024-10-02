@@ -2070,3 +2070,9 @@ section,
   margin-right: 8px;
   /* Khoảng cách giữa icon và text */
 }
+
+.zalo-icon {
+  width: 26px; /* Kích thước icon */
+  height: 26px; /* Kích thước icon */
+  filter: brightness(0) saturate(100%) invert(52%) sepia(0%) saturate(304%) hue-rotate(185deg) brightness(95%) contrast(92%);
+}
