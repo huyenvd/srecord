@@ -34,6 +34,33 @@
   }
   mobileNavToggleBtn.addEventListener('click', mobileNavToogle);
 
+  document.addEventListener("DOMContentLoaded", function () {
+    // Kiểm tra hệ điều hành
+    const userAgent = navigator.userAgent || navigator.vendor || window.opera;
+    const isIOS = /iPad|iPhone|iPod/.test(userAgent) && !window.MSStream;
+    const isMacOS = /Macintosh/.test(userAgent) && !/iPad|iPhone|iPod/.test(userAgent);
+
+    // Hàm để xóa phần tử khỏi DOM
+    function removeSection(selector) {
+        const section = document.querySelector(selector)?.closest('.col-md-6');
+        if (section) {
+            section.remove();
+            console.log(`Phần tử '${selector}' đã được xóa khỏi DOM.`);
+        } else {
+            console.warn(`Không tìm thấy phần tử '${selector}' để xóa.`);
+        }
+    }
+
+    // Nếu là iOS hoặc macOS thì xóa các phần tử liên quan
+    if (isIOS || isMacOS) {
+        // Xóa Google Play
+        removeSection('a[href*="play.google.com"]');
+
+        // Xóa Windows
+        removeSection('a[href*="drive.google.com"]');
+    }
+});
+
   /**
    * Hide mobile nav on same-page/hash links
    */
