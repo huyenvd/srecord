@@ -2076,3 +2076,37 @@ section,
   height: 26px; /* Kích thước icon */
   filter: brightness(0) saturate(100%) invert(52%) sepia(0%) saturate(304%) hue-rotate(185deg) brightness(95%) contrast(92%);
 }
+
+.video-container {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 20px; /* Bo góc */
+  overflow: hidden; /* Đảm bảo nội dung bên trong không vượt ra ngoài */
+  padding-top: 10px; /* Khoảng cách phía trên */
+}
+
+.video-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px; /* Đảm bảo hình ảnh cũng bo góc theo container */
+}
+
+.video-container .overlay-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3rem;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  padding: 10px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  opacity: 0.8;
+}
+
+.video-container:hover .overlay-icon {
+  transform: translate(-50%, -50%) scale(1.1);
+  opacity: 1;
+}
