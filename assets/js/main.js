@@ -52,13 +52,13 @@
     }
 
     // Nếu là iOS hoặc macOS thì xóa các phần tử liên quan
-    // if (isIOS || isMacOS) {
-    //     // Xóa Google Play
-    //     removeSection('a[href*="play.google.com"]');
+    if (isIOS || isMacOS) {
+        // Xóa Google Play
+        removeSection('a[href*="play.google.com"]');
 
-    //     // Xóa Windows
-    //     removeSection('a[href*="drive.google.com"]');
-    // }
+        // Xóa Windows
+        removeSection('a[href*="drive.google.com"]');
+    }
 });
 
   /**
